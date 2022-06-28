@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Prompt", sans-serif;
 }
 
 /* css variables */
@@ -12,4 +13,52 @@
   --img-profile: #8257e5;
   --buttons: #fff;
   --border-button: #1a1a1a;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  min-width: 100vh;
+  min-height: 100vh;
+  background-color: var(--bg);
+}
+.card {
+  display: flex;
+  flex-direction: column;
+    width: 25.438rem;
+  background-color: var(--bg-card);
+ height: 40.25rem;
+ 
+}
+.card-top {
+  display: flex;
+ 
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+.rocket-logo {
+  border-radius: 50%;
+  border: 1px solid #f1f1f1;
+  max-width: 
+  max-height: 10.486rem;;
+  padding: 10px;
+  display: flex;
+  margin-right: 5px;
+}
+.rocket-logo img {
+  max-width: 30px;
+  max-height: 40px;
+}
+.card-top #heroName {
+  color: var(--text);
+  display: block;
+  font-size: 0.625rem;
+}
+.generate-background {
+  display: flex;
+  max-width: 300px;
 }

@@ -3,13 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <!-- impot fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <title>RocketCard</title>
   </head>
   <body>
-    <main>
-      <div>conteudo esquerdo</div>
-      <div>conteudo da direita</div>
+    <main class="main-content">
+      <div class="card">
+        <div class="card-top">
+          <span class="rocket-logo">
+            <img src="/assets/logo.svg" alt="" />
+          </span>
+          <span id="heroName">Crystian97</span>
+        </div>
+        <div class="card-body">
+          <div class="description"></div>
+          <img src="" class="hero" alt="" />
+        </div>
+        <div class="card-bottom">
+          <img src="/assets/logo.svg" alt="" />
+          <span>rocketcard</span>
+        </div>
+      </div>
+      <div class="generate-background">conteudo da direita</div>
     </main>
   </body>
 </html>
