@@ -184,3 +184,21 @@ button {
   height: 3.71rem;
   margin-top: 2.62rem;
 }
+#colorPicker {
+  width: 12rem;
+  height: 2rem;
+  -webkit-apperance: none;
+  -moz-apperance: none;
+  apperance: none;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+#colorPicker::-moz-color-swatch {
+  border-radius: 1.93rem;
+  border: none;
+}
+#colorPicker::-webkit-color-swatch {
+  border-radius: 1.93rem;
+  border: none;
+}
