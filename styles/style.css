@@ -1,0 +1,177 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Prompt", sans-serif;
+}
+body {
+  background-color: var(--bg);
+  width: 100%;
+
+  height: 100%;
+
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+
+/* css variables */
+:root {
+  --bg: #000;
+  --bg-card: #0e1218;
+  --text: #f1f1f1;
+  --img-profile: #8257e5;
+  --buttons: #fff;
+  --border-button: #1a1a1a;
+}
+
+.background-card {
+  display: flex;
+
+  background-color: var(--img-profile);
+  border-radius: 3.125rem;
+  /* padding: 1.5rem 1rem 1rem;  */
+  height: 693px;
+  width: 27.375rem;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 407px;
+  height: 644px;
+  background-color: var(--bg-card);
+  /* padding: 1.125rem; */
+  border-radius: 3.125rem;
+  /* align-items: start; */
+  /* justify-content: space-between; */
+  overflow: hidden;
+  /* height:100% */
+}
+.card-top {
+  display: flex;
+
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: flex-start;
+
+  width: 100%;
+  margin-left: 2.1rem;
+  margin-top: 2.36rem;
+}
+.top {
+  display: flex;
+  align-items: center;
+  height: 3.4rem;
+}
+.card-top #heroName {
+  color: var(--text);
+  /* display: block; */
+  font-size: 1.5rem;
+  font-weight: light;
+  margin-left: 0.5rem;
+}
+
+.card-body {
+  display: flex;
+  /* justify-content: center; */
+
+  flex-direction: row;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.card-bottom {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  text-transform: uppercase;
+  color: var(--text);
+}
+.card-bottom img {
+  width: 1.75rem;
+}
+.card-bottom p {
+  margin-left: 0.68rem;
+  margin-right: 1.34rem;
+  font-size: 20px;
+}
+.info {
+  /* background-image: url("assets/gradient.png"); */
+  height: 12.169rem;
+  display: flex;
+  flex-direction: column;
+  font-color: var(--text);
+  background: linear-gradient(
+    180deg,
+    #000000 3.65%,
+    rgba(70, 69, 69, 0.72) 53.65%,
+    rgba(62, 56, 56, 0.42) 100%
+  );
+  /* width: 25.19rem; */
+  /* align-items: center; */
+  /* margin-right: 450px; */
+  justify-content: center;
+  width: 195.5px;
+  position: absolute;
+  border-radius: 20%;
+  z-index: 100;
+  margin-bottom: 1.03rem;
+  margin-left: 1.32rem;
+  /* margin-right: 195.5px; */
+}
+.detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--text);
+  width: 100%;
+  padding-left: 20px;
+}
+.detail img {
+  width: 1.56rem;
+  margin-right: 13.64px;
+}
+.hero {
+  width: 20, 6875rem;
+  height: 26.125rem;
+
+  border-radius: 50%;
+  border: 10px solid var(--img-profile);
+  /* position: relative; */
+  /* z-index: 1; */
+  margin-left: 4.6rem;
+  margin-bottom: 60px;
+  margin-top: 11.78px;
+}
+
+.rocket-logo {
+  width: 3.75rem;
+  height: 3.75rem;
+  border: 1px solid var(--text);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  /* margin-left: 2px; */
+}
+.rocket-logo img {
+  width: 2rem;
+}
+
+.generate-background {
+  color: var(--text);
+}
+button {
+  background-color: var(--bg);
+  border: 1px solid var(--border-button);
+  color: var(--text);
+  width: 12rem;
+  border-radius: 6rem;
+  cursor: pointer;
+}
