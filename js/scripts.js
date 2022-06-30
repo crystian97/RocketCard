@@ -2,7 +2,7 @@ function loadProfile() {
   const location = document.querySelector("#location");
   const hero = document.querySelector(".hero");
 
-  console.log(hero);
+  //   console.log(hero);
 
   fetch("https://api.github.com/users/crystian97")
     .then((res) => res.json())
@@ -30,3 +30,9 @@ function changeColor() {
   border.style.borderColor = color;
   background.style.background = color;
 }
+
+// copy to clipboard
+
+// html2canvas(document.querySelector(".background-card")).then((canvas) => {
+//   document.body.appendChild(canvas);
+// });
